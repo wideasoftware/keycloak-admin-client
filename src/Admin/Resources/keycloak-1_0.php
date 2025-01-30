@@ -5380,7 +5380,8 @@ return array(
                 'enabled' => array(
                     'location'    => 'query',
                     'description' => 'Boolean representing if user is enabled or not',
-                    'type'        => 'boolean',
+                    'type'        => 'string',
+                    'enum'        => ['true', 'false'],
                     'required'    => false,
                 ),
             ),
