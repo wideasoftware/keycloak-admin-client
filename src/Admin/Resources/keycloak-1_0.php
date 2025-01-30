@@ -5377,6 +5377,12 @@ return array(
                     'type'        => 'string',
                     'required'    => false,
                 ),
+                'enabled' => array(
+                    'location'    => 'query',
+                    'description' => 'Boolean representing if user is enabled or not',
+                    'type'        => 'boolean',
+                    'required'    => false,
+                ),
             ),
         ),
 
